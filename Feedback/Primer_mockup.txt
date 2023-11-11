@@ -1,0 +1,9 @@
+·Diego
+	-Padre
+		"Me parece bien elaborado y parece bastante fácil de acceder, yo la compro"
+
+	-Luis (amigo):
+		"Sinceramente creo que le faltan mas opciones en el chat como la posibilidad de mandar fotos y videos, por lo demás lo veo bien"
+
+	-David (amigo):
+		"Se parece mucho a otras apps y yo creo que la gente no tendrá problema en entenderlo, me parece un proyecto muy interesante"
