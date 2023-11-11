@@ -1,0 +1,21 @@
+Listado de las interfaces que hará cada integrante del grupo:
+
+- Sergio
+	· Chat 
+	· Conversaciones
+	· Ubicación
+
+- Hugo
+	· Registro de sesión
+	· Ajustes del perfil
+	· Logo Cargando
+
+- Diego 
+	· Inicio de sesión
+	· Perfil
+	· ¿Quiénes somos?
+	
+- Mario
+	· Inicio/Inicio deslegable
+	· Match/MegaMatch
+	· Perfil de las personas

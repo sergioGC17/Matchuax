@@ -1,0 +1,53 @@
+Esta información no es final, simplemente es una idea de lo que vamos a hacer en el proyecto.
+
+-- MATCHUAX --
+
+PANTALLA 
+	- REGISTRO/INICIO SESIÓN
+	- INICIO (PARA VER LAS FOTOS DE LOS DEMÁS)
+	- CHATS
+	- PERFIL
+
+
+-Interacciones
+	likes
+	chat
+	megalike
+	
+
+-login (iniciar sesion)
+	contraseña
+	nombre
+
+-login (registro)
+	contraseña
+	nombre
+	genero masc/fem/animales
+	muestrame (rago edad, sexo)
+	hobies
+
+- social
+
+
+------------------------------
+- datos del usuario
+	correo
+	dni
+	contraseña
+	nombre
+	ubicacion
+	genero masc/fem/animales
+	muestrame (rago edad, sexo)
+	hobies
+	edad
+	foto
+	altura
+	telefono
+ 	verificacion (con carnet de universidad)
+
+
+- Meter limite de likes (premiun ilimitado)
+- Mensaje directo al dar corazon y que salga una notificación
+	
+- API de ubicacion
+- API de publicidad
