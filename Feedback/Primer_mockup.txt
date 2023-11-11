@@ -1,0 +1,9 @@
+·Sergio
+	- Hermana:
+		“A mi me parece que está bien, que se entiende lo que hay que hacer y no es difícil de saber a que botón tendrás que darle y es accesible para todos”
+	
+	- Josué (amigo):
+		“Está muy bien el mockup. Pero ¿y si en vez de que salga la foto de la persona que salga la personalidad y luego que acepten si quieren o no que se vean las fotos entre ellos?”
+
+	- Padre:
+		“Le faltan algunos datos como el poder ir a los mensajes sin necesidad de darle a los mensajes de la persona que aparece en pantalla, que se pueda ver el perfil de la persona desde los mensajes y que cuando sea match también salga el nombre y la edad y algún otro dato como puede ser el edificio en el que estudia “
