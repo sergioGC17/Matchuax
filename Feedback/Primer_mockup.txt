@@ -1,3 +1,4 @@
+
 ·Diego
 	-Padre
 		"Me parece bien elaborado y parece bastante fácil de acceder, yo la compro"
@@ -17,3 +18,13 @@
 
 	-Antonio (amigo): 
 		Le gusta que sea tan simple y vistoso pero cree que se parece mucho a otras app y cree que debemos de hacer algo nuevo para ser mejor que la competencia.
+
+·Mario
+	-Víctor (amigo):
+		Opina que la idea de no poder escribir antes del match es innecesaria y podría limitar la interacción entre usuarios. Sugiere que la aplicación se enfoque en la seguridad de los perfiles y la verificación de identidad. Además, considera que la inclusión de una breve descripción y enlaces a redes sociales sería útil para conocer mejor a los usuarios, como se mencionó anteriormente.
+
+	-Martín (amigo):
+		Prefiere una interfaz simple y fácil de usar en lugar de agregar más funcionalidades al chat, como enviar fotos y contactos. Considera que la aplicación debe centrarse en la calidad de las interacciones en lugar de la cantidad de características.
+
+	-Adrián (amigo):
+		Sugiere que la aplicación debe destacarse en un mercado competitivo, explorando formas creativas de diferenciarse y ofrecer una experiencia única a los usuarios. Destaca la importancia de la originalidad y la creatividad como estrategia para sobresalir en el mercado.
