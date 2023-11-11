@@ -1,9 +1,19 @@
+·Diego
+	-Padre
+		"Me parece bien elaborado y parece bastante fácil de acceder, yo la compro"
+
+	-Luis (amigo):
+		"Sinceramente creo que le faltan mas opciones en el chat como la posibilidad de mandar fotos y videos, por lo demás lo veo bien"
+
+	-David (amigo):
+		"Se parece mucho a otras apps y yo creo que la gente no tendrá problema en entenderlo, me parece un proyecto muy interesante"
+    
 ·Hugo
-	-Gonzalo (Amigo): 
+	-Gonzalo (amigo): 
 		Opina que antes de hacer el match no poder escribir a la persona, es decir solo poder hablar con la persona cuando hayas hecho match, también cree que deberíamos poner una breve descripción sobre la persona y otras redes sociales.
 
-	-Anto (Amigo): 
+	-Anto (amigo): 
 		Bien organizado pero cree que en el apartado del chat deberíamos poner para poder enviar fotos, contactos, etc… En resumen añadir mas funcionalidades a la pantalla del chat.
 
-	-Antonio (Amigo): 
+	-Antonio (amigo): 
 		Le gusta que sea tan simple y vistoso pero cree que se parece mucho a otras app y cree que debemos de hacer algo nuevo para ser mejor que la competencia.
