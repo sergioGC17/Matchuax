@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Matchuax</string>
+
+    <!-- Chats -->
+    <string name="maria">María</string>
+    <string name="mensajeMaria">🔈 Audio.</string>
+
+    <string name="teresa">Teresa</string>
+    <string name="mensajeTeresa">Cuando quieras jaja.</string>
+
+    <string name="paula">Paula</string>
+    <string name="mensajePaula">Muchas gracias!!</string>
+
+    <string name="andrea">Andrea</string>
+    <string name="mensajeAndrea">📸 Foto.</string>
+
+    <string name="lucia">Lucía</string>
+    <string name="mensajeLucia">Es que no me gustas.</string>
+    <string name="sinLeerLucia">1</string>
+
+    <string name="sofia">Sofía</string>
+    <string name="mensajeSofia">Ahora estoy en clase pero nos pod…</string>
+
+    <string name="martina">Martina</string>
+    <string name="mensajeMartina">Asi que ya nos veremos allí.</string>
+    <string name="sinLeerMartina">3</string>
 </resources>
