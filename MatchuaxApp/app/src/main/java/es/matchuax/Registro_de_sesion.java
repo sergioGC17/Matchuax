@@ -17,7 +17,7 @@ public class Registro_de_sesion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_de_sesion);
         // Definir la lista de universidades
-        String[] universidades = {"Seleciona tu Universidad", "Universidad Alfonso X el sabio","Universidad Francisco de vitoria","Universidad Europea"};
+        /*String[] universidades = {"Seleciona tu Universidad", "Universidad Alfonso X el sabio","Universidad Francisco de vitoria","Universidad Europea"};
 
         // Enlazar el Spinner con las opciones de universidades
         Spinner universitySpinner = findViewById(R.id.Universidades);
@@ -30,6 +30,8 @@ public class Registro_de_sesion extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                 String selectedUniversity = universidades[position];
                 // Realizar acciones con la universidad seleccionada
+
+
             }
 
             @Override
@@ -37,5 +39,6 @@ public class Registro_de_sesion extends AppCompatActivity {
                 // Manejar caso en que no se selecciona nada (si es necesario)
             }
         });
+        */
     }
 }
