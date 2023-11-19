@@ -36,7 +36,7 @@ PANTALLA
 	contraseña
 	nombre
 	ubicacion
-	genero masc/fem/animales
+	genero masc/fem/no binario
 	muestrame (rago edad, sexo)
 	hobies
 	edad
