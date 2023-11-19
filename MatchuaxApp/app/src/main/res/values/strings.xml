@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Matchuax</string>
+
+    <!-- UBICACION -->
+    <string name="seleccione_el_edificio">Seleccione el edificio</string>
+    <string name="ubicacion">UBICACIÓN</string>
+
 </resources>
