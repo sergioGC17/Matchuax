@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCFA"
+    android:backgroundTint="#8BDCF6"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="664dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="12dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="113dp"
+                android:layout_height="118dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.029"
+                app:srcCompat="@drawable/logouax" />
+
+
+            <ImageView
+                android:id="@+id/atras"
+                android:layout_width="71dp"
+                android:layout_height="64dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.048"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024"
+                app:srcCompat="@drawable/atras" />
+
+
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="314dp"
+                android:layout_height="54dp"
+                android:background="@drawable/fondo_edittext"
+                android:backgroundTint="#F5F5F5"
+                android:hint="Nombre"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.28" />
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="314dp"
+                android:layout_height="54dp"
+                android:background="@drawable/fondo_edittext"
+                android:backgroundTint="#F5F5F5"
+
+                android:hint="Apellidos"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.483"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.391" />
+
+
+            <EditText
+                android:id="@+id/editTextDOB"
+                android:layout_width="314dp"
+                android:layout_height="54dp"
+                android:background="@drawable/fondo_edittext"
+                android:backgroundTint="#F5F5F5"
+                android:hint="Fecha de nacimiento"
+                android:inputType="datetime"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Género:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.577" />
+
+
+            <Button
+                android:id="@+id/siguiente"
+                android:layout_width="174dp"
+                android:layout_height="67dp"
+                android:backgroundTint="@color/blue"
+                android:text="Siguiente"
+                android:textSize="20dp"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.953" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="285dp"
+                android:layout_height="57dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.661">
+
+                <RadioButton
+                    android:id="@+id/radioButtonMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonOther"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Otro" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewGustos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gustos:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.056"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.729" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutGustos"
+                android:layout_width="178dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.838">
+
+                <CheckBox
+                    android:id="@+id/checkBoxChicas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicas" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxChicos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Chicos" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
