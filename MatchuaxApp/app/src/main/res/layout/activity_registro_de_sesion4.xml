@@ -35,17 +35,6 @@
                 app:layout_constraintVertical_bias="0.024"
                 app:srcCompat="@drawable/atras" />
 
-            <ImageView
-                android:id="@+id/logo"
-                android:layout_width="113dp"
-                android:layout_height="118dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.029"
-                app:srcCompat="@drawable/logouax" />
-
 
             <Button
                 android:id="@+id/siguiente"
@@ -60,7 +49,110 @@
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.953" />
+                app:layout_constraintVertical_bias="0.973" />
+
+            <Spinner
+                android:id="@+id/EDIFICIOS"
+                android:layout_width="314dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="76dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo_edittext"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.191" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="185dp"
+                android:layout_height="178dp"
+                app:layout_constraintBottom_toBottomOf="@+id/siguiente"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/fotoperfil" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="126dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="8dp"
+                android:text="Button"
+                app:cornerRadius="50px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.808"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.828" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="126dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Button"
+                app:cornerRadius="50px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.808"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.566" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="126dp"
+                android:layout_height="129dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="Button"
+                app:cornerRadius="50px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.568" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="126dp"
+                android:layout_height="129dp"
+                android:layout_marginEnd="8dp"
+                android:text="Button"
+                app:cornerRadius="50px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.829" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="314dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/fondo_edittext"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Breve Descripcion"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.391" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

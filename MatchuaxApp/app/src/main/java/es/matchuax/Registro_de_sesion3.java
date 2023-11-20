@@ -17,7 +17,7 @@ public class Registro_de_sesion3 extends AppCompatActivity {
         String[] listaPaises = getResources().getStringArray(R.array.countries_array);
 
 // Crear un adaptador para el spinner
-        Spinner spinnerCountries = findViewById(R.id.spinner);
+        Spinner spinnerCountries = findViewById(R.id.pais);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, listaPaises);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerCountries.setAdapter(adapter);
