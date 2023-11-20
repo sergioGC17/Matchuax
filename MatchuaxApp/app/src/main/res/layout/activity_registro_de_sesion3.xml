@@ -35,6 +35,17 @@
                 app:srcCompat="@drawable/logouax" />
 
 
+            <ImageView
+                android:id="@+id/atras"
+                android:layout_width="71dp"
+                android:layout_height="64dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.048"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/atras" />
+
+
             <EditText
                 android:id="@+id/editTextName"
                 android:layout_width="314dp"
