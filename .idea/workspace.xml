@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c80147f6-87c2-45e5-acec-de61c4bb82c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/java/es/matchuax/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/java/es/matchuax/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_match.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_match.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_perfil_de_las_personas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_perfil_de_las_personas.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YTzE8ONW4lOOANwoMDTgvnnZml" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc1/OneDrive/Escritorio/matchuax/Matchuax/MatchuaxApp&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c80147f6-87c2-45e5-acec-de61c4bb82c0" name="Changes" comment="" />
+      <created>1700564242563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700564242563</updated>
+    </task>
+    <servers />
+  </component>
+</project>
