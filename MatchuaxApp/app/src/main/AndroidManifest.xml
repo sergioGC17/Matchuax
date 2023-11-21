@@ -25,8 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".Registro_de_sesion"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".Quienes_somos"
             android:exported="false" />
@@ -44,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".Logo_cargando"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".Inicio_de_sesion"
             android:exported="false" />
@@ -63,14 +62,13 @@
         <activity
             android:name=".Registro_de_sesion2"
             android:exported="false"/>
-
         <activity
             android:name=".Registro_de_sesion3"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>
