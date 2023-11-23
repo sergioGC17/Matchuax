@@ -24,7 +24,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/atras2"
+                android:id="@+id/atras"
                 android:layout_width="71dp"
                 android:layout_height="64dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +68,7 @@
                 app:layout_constraintVertical_bias="0.191" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/registro_fotoperfil"
                 android:layout_width="185dp"
                 android:layout_height="178dp"
                 app:layout_constraintBottom_toBottomOf="@+id/siguiente"
@@ -137,7 +137,7 @@
                 app:layout_constraintVertical_bias="0.829" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/registro_Descripcion"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="8dp"
@@ -152,7 +152,7 @@
                 app:layout_constraintHorizontal_bias="0.516"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.391" />
+                app:layout_constraintVertical_bias="0.392" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

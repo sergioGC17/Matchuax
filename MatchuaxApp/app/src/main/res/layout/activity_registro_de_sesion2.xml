@@ -24,20 +24,6 @@
             android:layout_height="match_parent">
 
 
-            <!--<Spinner
-                android:id="@+id/Universidades"
-                android:layout_width="322dp"
-                android:layout_height="58dp"
-                android:background="@drawable/fondo_edittext"
-                android:backgroundTint="#F5F5F5"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.494"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.959" />
-        -->
-
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="210dp"
@@ -65,7 +51,7 @@
                 app:layout_constraintVertical_bias="0.937" />
 
             <TextView
-                android:id="@+id/textViewWelcome"
+                android:id="@+id/Bienvenido"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"

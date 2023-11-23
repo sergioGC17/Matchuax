@@ -138,20 +138,20 @@
                 app:layout_constraintVertical_bias="0.7">
 
                 <RadioButton
-                    android:id="@+id/radioButtonMale"
+                    android:id="@+id/masculino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masculino" />
 
                 <RadioButton
-                    android:id="@+id/radioButtonFemale"
+                    android:id="@+id/femenino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:text="Femenino" />
 
                 <RadioButton
-                    android:id="@+id/radioButtonOther"
+                    android:id="@+id/otro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -185,13 +185,13 @@
                 app:layout_constraintVertical_bias="0.838">
 
                 <CheckBox
-                    android:id="@+id/checkBoxChicas"
+                    android:id="@+id/chicas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Chicas" />
 
                 <CheckBox
-                    android:id="@+id/checkBoxChicos"
+                    android:id="@+id/chicos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
