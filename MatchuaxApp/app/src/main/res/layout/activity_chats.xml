@@ -27,31 +27,27 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/LinearLayoutChats"
+            android:id="@+id/linear_layout_chats"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/LinearLayoutMariaFondo"
+                android:id="@+id/linear_layout_maria_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenMaria"
+                    android:id="@+id/imagen_maria"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/maria"
                     android:layout_gravity="center"/>
-                <!--
-                    android:background="@drawable/imageview_chats"
-                    android:clipToOutline="true"
-                -->
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutMariaDerecha"
+                    android:id="@+id/linear_layout_maria_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -61,7 +57,7 @@
                     tools:ignore="RtlSymmetry">
 
                     <TextView
-                        android:id="@+id/TextViewMariaNombre"
+                        android:id="@+id/text_view_maria_nombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/maria"
@@ -71,10 +67,10 @@
                         android:textStyle="bold"/>
 
                     <TextView
-                        android:id="@+id/TextViewMariaMensaje"
+                        android:id="@+id/text_view_maria_mensaje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/mensajeMaria"
+                        android:text="@string/mensaje_maria"
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -82,21 +78,21 @@
             </LinearLayout> <!-- MariaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutTeresaFondo"
+                android:id="@+id/linear_layout_teresa_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenTeresa"
+                    android:id="@+id/imagen_teresa"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/teresa"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutTeresaDerecha"
+                    android:id="@+id/linear_layout_teresa_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -106,7 +102,7 @@
                     tools:ignore="RtlSymmetry">
 
                     <TextView
-                        android:id="@+id/TextViewTeresaNombre"
+                        android:id="@+id/text_view_teresa_nombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/teresa"
@@ -116,10 +112,10 @@
                         android:textStyle="bold"/>
 
                     <TextView
-                        android:id="@+id/TextViewTeresaMensaje"
+                        android:id="@+id/text_view_teresa_mensaje"
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/mensajeTeresa"
+                        android:text="@string/mensaje_teresa"
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -127,21 +123,21 @@
             </LinearLayout> <!-- TeresaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutPaulaFondo"
+                android:id="@+id/linearlayout_paula_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenPaula"
+                    android:id="@+id/imagen_paula"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/paula"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutPaulaDerecha"
+                    android:id="@+id/linear_layout_paula_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -151,7 +147,7 @@
                     tools:ignore="RtlSymmetry">
 
                     <TextView
-                        android:id="@+id/TextViewPaulaNombre"
+                        android:id="@+id/text_view_paula_nombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/paula"
@@ -164,7 +160,7 @@
                         android:id="@+id/TextViewPaulaMensaje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/mensajePaula"
+                        android:text="@string/mensaje_paula"
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -172,21 +168,21 @@
             </LinearLayout> <!-- PaulaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutAndreaFondo"
+                android:id="@+id/linear_layout_andrea_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenAndrea"
+                    android:id="@+id/imagen_andrea"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/andrea"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutAndreaDerecha"
+                    android:id="@+id/linear_layout_andrea_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -196,7 +192,7 @@
                     tools:ignore="RtlSymmetry">
 
                     <TextView
-                        android:id="@+id/TextViewAndreaNombre"
+                        android:id="@+id/text_view_andrea_nombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/andrea"
@@ -206,10 +202,10 @@
                         android:textStyle="bold"/>
 
                     <TextView
-                        android:id="@+id/TextViewAndreaMensaje"
+                        android:id="@+id/text_view_andrea_mensaje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/mensajeAndrea"
+                        android:text="@string/mensaje_andrea"
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -217,21 +213,21 @@
             </LinearLayout> <!-- AndreaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutLuciaFondo"
+                android:id="@+id/linear_layout_lucia_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenLucia"
+                    android:id="@+id/imagen_lucia"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/lucia"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutLuciaDerecha"
+                    android:id="@+id/linear_layout_lucia_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -243,7 +239,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/LinearLayoutLuciaFondoTexto"
+                        android:id="@+id/linear_layout_lucia_fondo_texto"
                         android:layout_width="210dp"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
@@ -251,7 +247,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/TextViewLuciaNombre"
+                            android:id="@+id/text_view_lucia_nombre"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
@@ -261,22 +257,23 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/TextViewLuciaMensaje"
+                            android:id="@+id/text_view_lucia_mensaje"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/mensajeLucia"
+                            android:text="@string/mensaje_lucia"
                             android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="15sp" />
                     </LinearLayout> <!-- LuciaFondoTexto -->
 
                     <TextView
+                        android:id="@+id/text_view_lucia_sin_leer"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/textview_chats"
                         android:layout_marginLeft="5dp"
                         android:gravity="center"
-                        android:text="@string/sinLeerLucia"
+                        android:text="@string/sin_leer_lucia"
                         android:textColor="@color/red"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
@@ -286,21 +283,21 @@
             </LinearLayout> <!-- LuciaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutSofiaFondo"
+                android:id="@+id/linear_layout_sofia_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenSofia"
+                    android:id="@+id/imagen_sofia"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/sofia"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutSofiaDerecha"
+                    android:id="@+id/linear_layout_sofia_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -310,7 +307,7 @@
                     tools:ignore="RtlSymmetry">
 
                     <TextView
-                        android:id="@+id/TextViewSofiaNombre"
+                        android:id="@+id/text_view_sofia_nombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sofia"
@@ -320,10 +317,10 @@
                         android:textStyle="bold"/>
 
                     <TextView
-                        android:id="@+id/TextViewSofiaMensaje"
+                        android:id="@+id/text_view_sofia_mensaje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/mensajeSofia"
+                        android:text="@string/mensaje_sofia"
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -331,21 +328,21 @@
             </LinearLayout> <!-- SofiaFondo -->
 
             <LinearLayout
-                android:id="@+id/LinearLayoutMartinaFondo"
+                android:id="@+id/linear_layout_martina_fondo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginBottom="30dp">
 
                 <ImageView
-                    android:id="@+id/imagenMartina"
+                    android:id="@+id/imagen_martina"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/martina"
                     android:layout_gravity="center"/>
 
                 <LinearLayout
-                    android:id="@+id/LinearLayoutMartinaDerecha"
+                    android:id="@+id/linear_layout_martina_derecha"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginStart="5dp"
@@ -356,14 +353,14 @@
                     tools:ignore="RtlSymmetry">
 
                     <LinearLayout
-                        android:id="@+id/LinearLayoutMartinaFondoTexto"
+                        android:id="@+id/linear_layout_martina_fondo_texto"
                         android:layout_width="210dp"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_marginBottom="30dp"
                         android:orientation="vertical">
                         <TextView
-                            android:id="@+id/TextViewMartinaNombre"
+                            android:id="@+id/text_view_martina_nombre"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/martina"
@@ -373,22 +370,23 @@
                             android:textStyle="bold"/>
 
                         <TextView
-                            android:id="@+id/TextViewMartinaMensaje"
+                            android:id="@+id/text_view_martina_mensaje"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/mensajeMartina"
+                            android:text="@string/mensaje_martina"
                             android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                     </LinearLayout> <!-- MartinaFondoTexto -->
 
                     <TextView
+                        android:id="@+id/text_view_martina_sin_leer"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/textview_chats"
                         android:layout_marginStart="5dp"
                         android:gravity="center"
-                        android:text="@string/sinLeerMartina"
+                        android:text="@string/sin_leer_martina"
                         android:textColor="@color/red"
                         android:textStyle="bold"
                         android:textSize="16sp"/>

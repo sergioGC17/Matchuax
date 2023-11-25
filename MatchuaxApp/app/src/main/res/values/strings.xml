@@ -21,25 +21,25 @@
     <string name="mensaje13">🔈 Audio.</string>
   
     <!-- Chats -->
-    <string name="mensajeMaria">🔈 Audio.</string>
+    <string name="mensaje_maria">🔈 Audio.</string>
 
     <string name="teresa">Teresa</string>
-    <string name="mensajeTeresa">Cuando quieras jaja.</string>
+    <string name="mensaje_teresa">Cuando quieras jaja.</string>
 
     <string name="paula">Paula</string>
-    <string name="mensajePaula">Muchas gracias!!</string>
+    <string name="mensaje_paula">Muchas gracias!!</string>
 
     <string name="andrea">Andrea</string>
-    <string name="mensajeAndrea">📸 Foto.</string>
+    <string name="mensaje_andrea">📸 Foto.</string>
 
     <string name="lucia">Lucía</string>
-    <string name="mensajeLucia">Es que no me gustas.</string>
-    <string name="sinLeerLucia">1</string>
+    <string name="mensaje_lucia">Es que no me gustas.</string>
+    <string name="sin_leer_lucia">1</string>
 
     <string name="sofia">Sofía</string>
-    <string name="mensajeSofia">Ahora estoy en clase pero nos pod…</string>
+    <string name="mensaje_sofia">Ahora estoy en clase pero nos pod…</string>
 
     <string name="martina">Martina</string>
-    <string name="mensajeMartina">Asi que ya nos veremos allí.</string>
-    <string name="sinLeerMartina">3</string>
+    <string name="mensaje_martina">Asi que ya nos veremos allí.</string>
+    <string name="sin_leer_martina">3</string>
 </resources>
