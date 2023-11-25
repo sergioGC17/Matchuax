@@ -1,216 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Chats">
+
+<ImageView
+    android:id="@+id/atras"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/atras"/>
+
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Chats">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/atras"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/atras"
-        android:clipToOutline="true"/>
-
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+    <LinearLayout
+        android:id="@+id/linear_layout_chats"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/linear_layout_chats"
+            android:id="@+id/linear_layout_maria_fondo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:id="@+id/imagen_maria"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/maria"
+                android:layout_gravity="center"/>
 
             <LinearLayout
-                android:id="@+id/linear_layout_maria_fondo"
+                android:id="@+id/linear_layout_maria_derecha"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="30dp">
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/linearlayout_chats"
+                tools:ignore="RtlSymmetry">
 
-                <ImageView
-                    android:id="@+id/imagen_maria"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/maria"
-                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/text_view_maria_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maria"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
 
-                <LinearLayout
-                    android:id="@+id/linear_layout_maria_derecha"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="5dp"
-                    android:paddingStart="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/linearlayout_chats"
-                    tools:ignore="RtlSymmetry">
+                <TextView
+                    android:id="@+id/text_view_maria_mensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mensaje_maria"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout> <!-- maria_derecha -->
+        </LinearLayout> <!-- maria_fondo -->
 
-                    <TextView
-                        android:id="@+id/text_view_maria_nombre"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/maria"
-                        android:textColor="@color/white"
-                        android:gravity="center_vertical"
-                        android:textSize="22sp"
-                        android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/linear_layout_teresa_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
 
-                    <TextView
-                        android:id="@+id/text_view_maria_mensaje"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mensaje_maria"
-                        android:textColor="@color/grey"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-                </LinearLayout> <!-- MariaDerecha -->
-            </LinearLayout> <!-- MariaFondo -->
+            <ImageView
+                android:id="@+id/imagen_teresa"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/teresa"
+                android:layout_gravity="center"/>
 
             <LinearLayout
-                android:id="@+id/linear_layout_teresa_fondo"
+                android:id="@+id/linear_layout_teresa_derecha"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="30dp">
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/linearlayout_chats"
+                tools:ignore="RtlSymmetry">
 
-                <ImageView
-                    android:id="@+id/imagen_teresa"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/teresa"
-                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/text_view_teresa_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/teresa"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
 
-                <LinearLayout
-                    android:id="@+id/linear_layout_teresa_derecha"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="5dp"
-                    android:paddingStart="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/linearlayout_chats"
-                    tools:ignore="RtlSymmetry">
+                <TextView
+                    android:id="@+id/text_view_teresa_mensaje"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mensaje_teresa"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout> <!-- teresa_derecha -->
+        </LinearLayout> <!-- teresa_fondo -->
 
-                    <TextView
-                        android:id="@+id/text_view_teresa_nombre"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/teresa"
-                        android:textColor="@color/white"
-                        android:gravity="center_vertical"
-                        android:textSize="22sp"
-                        android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/linearlayout_paula_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
 
-                    <TextView
-                        android:id="@+id/text_view_teresa_mensaje"
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mensaje_teresa"
-                        android:textColor="@color/grey"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-                </LinearLayout> <!-- TeresaDerecha -->
-            </LinearLayout> <!-- TeresaFondo -->
+            <ImageView
+                android:id="@+id/imagen_paula"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/paula"
+                android:layout_gravity="center"/>
 
             <LinearLayout
-                android:id="@+id/linearlayout_paula_fondo"
+                android:id="@+id/linear_layout_paula_derecha"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="30dp">
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/linearlayout_chats"
+                tools:ignore="RtlSymmetry">
 
-                <ImageView
-                    android:id="@+id/imagen_paula"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/paula"
-                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/text_view_paula_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paula"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
 
-                <LinearLayout
-                    android:id="@+id/linear_layout_paula_derecha"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="5dp"
-                    android:paddingStart="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/linearlayout_chats"
-                    tools:ignore="RtlSymmetry">
+                <TextView
+                    android:id="@+id/TextViewPaulaMensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mensaje_paula"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout> <!-- paula_derecha -->
+        </LinearLayout> <!-- paula_fondo -->
 
-                    <TextView
-                        android:id="@+id/text_view_paula_nombre"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/paula"
-                        android:textColor="@color/white"
-                        android:gravity="center_vertical"
-                        android:textSize="22sp"
-                        android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/linear_layout_andrea_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
 
-                    <TextView
-                        android:id="@+id/TextViewPaulaMensaje"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mensaje_paula"
-                        android:textColor="@color/grey"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-                </LinearLayout> <!-- PaulaDerecha -->
-            </LinearLayout> <!-- PaulaFondo -->
+            <ImageView
+                android:id="@+id/imagen_andrea"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/andrea"
+                android:layout_gravity="center"/>
 
             <LinearLayout
-                android:id="@+id/linear_layout_andrea_fondo"
+                android:id="@+id/linear_layout_andrea_derecha"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="30dp">
+                android:layout_height="70dp"
+                android:layout_marginStart="5dp"
+                android:paddingStart="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/linearlayout_chats"
+                tools:ignore="RtlSymmetry">
 
-                <ImageView
-                    android:id="@+id/imagen_andrea"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/andrea"
-                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/text_view_andrea_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/andrea"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
 
-                <LinearLayout
-                    android:id="@+id/linear_layout_andrea_derecha"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="5dp"
-                    android:paddingStart="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/linearlayout_chats"
-                    tools:ignore="RtlSymmetry">
-
-                    <TextView
-                        android:id="@+id/text_view_andrea_nombre"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/andrea"
-                        android:textColor="@color/white"
-                        android:gravity="center_vertical"
-                        android:textSize="22sp"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/text_view_andrea_mensaje"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mensaje_andrea"
-                        android:textColor="@color/grey"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
-                </LinearLayout> <!-- AndreaDerecha -->
-            </LinearLayout> <!-- AndreaFondo -->
+                <TextView
+                    android:id="@+id/text_view_andrea_mensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mensaje_andrea"
+                    android:textColor="@color/grey"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout> <!-- andrea_derecha -->
+        </LinearLayout> <!-- andrea_fondo -->
 
             <LinearLayout
                 android:id="@+id/linear_layout_lucia_fondo"
@@ -264,7 +263,7 @@
                             android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="15sp" />
-                    </LinearLayout> <!-- LuciaFondoTexto -->
+                    </LinearLayout> <!-- lucia_fondo_texto -->
 
                     <TextView
                         android:id="@+id/text_view_lucia_sin_leer"
@@ -279,8 +278,8 @@
                         android:textSize="16sp"/>
 
 
-                </LinearLayout> <!-- LuciaDerecha -->
-            </LinearLayout> <!-- LuciaFondo -->
+                </LinearLayout> <!-- lucia_derecha -->
+            </LinearLayout> <!-- lucia_fondo -->
 
             <LinearLayout
                 android:id="@+id/linear_layout_sofia_fondo"
@@ -324,8 +323,8 @@
                         android:textColor="@color/grey"
                         android:textSize="15sp"
                         android:textStyle="bold" />
-                </LinearLayout> <!-- SofiaDerecha -->
-            </LinearLayout> <!-- SofiaFondo -->
+                </LinearLayout> <!-- sofia_derecha -->
+            </LinearLayout> <!-- sofia_fondo -->
 
             <LinearLayout
                 android:id="@+id/linear_layout_martina_fondo"
@@ -390,10 +389,10 @@
                         android:textColor="@color/red"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
-                </LinearLayout> <!-- MartinaDerecha -->
-            </LinearLayout> <!-- MartinaFondo -->
+                </LinearLayout> <!-- martina_derecha -->
+            </LinearLayout> <!-- martina_fondo -->
 
-        </LinearLayout> <!-- Chats -->
+        </LinearLayout> <!-- chats -->
 
     </ScrollView>
 

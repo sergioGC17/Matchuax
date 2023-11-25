@@ -14,7 +14,7 @@ public class Chats extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chats);
 
-        LinearLayout linearLayout = findViewById(R.id.LinearLayoutMariaFondo);
+        LinearLayout linearLayout = findViewById(R.id.linear_layout_maria_fondo);
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
