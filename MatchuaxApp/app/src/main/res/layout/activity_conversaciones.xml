@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/LinearLayoutArriba"
+        android:id="@+id/linear_layout_arriba"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -22,32 +22,38 @@
             android:layout_height="50dp"
             android:src="@drawable/atras" />
 
-
-        <ImageView
-            android:id="@+id/imagen"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="20dp"
-            android:src="@drawable/maria" />
-
-        <TextView
-            android:id="@+id/TextView"
+        <LinearLayout
+            android:id="@+id/linear_layout_persona"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:gravity="center"
-            android:text="@string/maria"
-            android:textColor="@color/white"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:background="@drawable/textview_nombre_conversaciones" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    </LinearLayout> <!-- LinearLayoutArriba -->
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/maria" />
+
+            <TextView
+                android:id="@+id/text_view_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="@string/maria"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="@drawable/textview_nombre_conversaciones" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 
     <LinearLayout
-        android:id="@+id/LinearLayoutChats"
+        android:id="@+id/Llinear_layout_chats"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -214,10 +220,11 @@
             </LinearLayout>
         </ScrollView>
 
-    </LinearLayout> <!-- Chat -->
+    </LinearLayout>
+
 
     <LinearLayout
-        android:id="@+id/LinearLayoutAbajo"
+        android:id="@+id/linear_layout_abajo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -227,7 +234,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:id="@+id/Mensaje"
+            android:id="@+id/mensaje"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/linearlayout_mensaje_conversaciones"
@@ -237,7 +244,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/edit_text_mensaje"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -258,7 +265,7 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="5dp"
                 android:src="@drawable/camara" />
-        </LinearLayout> <!-- Mensaje -->
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/audio"
@@ -267,7 +274,7 @@
             android:layout_marginStart="5dp"
             android:src="@drawable/audio" />
 
-    </LinearLayout> <!-- LinearLayoutAbajo -->
+    </LinearLayout>
 
 
 </LinearLayout>

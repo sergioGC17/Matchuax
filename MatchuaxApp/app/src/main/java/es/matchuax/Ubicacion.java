@@ -18,7 +18,7 @@ public class Ubicacion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ubicacion);
 
-
+        //Redirigir a Ajustes_de_perfil
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView imageView = findViewById(R.id.atras);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,8 +28,9 @@ public class Ubicacion extends AppCompatActivity {
             }
         });
 
+
         //Spinner
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Spinner spinnerEdificios = findViewById(R.id.edificio);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Spinner spinnerEdificios = findViewById(R.id.spinner_edificio);
 
         String[] edificios = {"Edificio A", "Edificio B", "Edificio C", "Edificio D", "Edificio T1", "Edificio T2"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, edificios);
