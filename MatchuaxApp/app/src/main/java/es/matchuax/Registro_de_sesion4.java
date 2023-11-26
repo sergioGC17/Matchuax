@@ -1,8 +1,11 @@
 package es.matchuax;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +17,23 @@ public class Registro_de_sesion4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_de_sesion4);
+
+        ImageView imageView = findViewById(R.id.atras);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Registro_de_sesion4.this, Registro_de_sesion3.class);
+                startActivity(intent);
+            }
+        });
+        Button button = findViewById(R.id.siguiente);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Registro_de_sesion4.this, Inicio.class);
+                startActivity(intent);
+            }
+        });
 
         String[] edificios = getResources().getStringArray(R.array.edificios);
         String[] listaedificios = getResources().getStringArray(R.array.edificios);

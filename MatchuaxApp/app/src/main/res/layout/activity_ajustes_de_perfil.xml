@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/fotoperfil" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/atras"
         android:layout_width="75dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/quienesosmos"
         android:layout_width="68dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/quienessomos" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ubi"
         android:layout_width="75dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
