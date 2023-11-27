@@ -1,4 +1,85 @@
 <resources>
+    <string name="app_name">MatchuaxApp</string>
+    <string-array name="countries_array">
+        <item>Pais de Origen</item>
+        <item>Estados Unidos</item>
+        <item>Canadá</item>
+        <item>México</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Colombia</item>
+        <item>Reino Unido</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+        <item>España</item>
+        <item>Italia</item>
+        <item>Japón</item>
+        <item>China</item>
+        <item>Australia</item>
+        <item>Rusia</item>
+        <item>India</item>
+        <item>Sudáfrica</item>
+        <item>Portugal</item>
+        <item>Holanda (Países Bajos)</item>
+        <item>Bélgica</item>
+        <item>Suiza</item>
+        <item>Austria</item>
+        <item>Grecia</item>
+        <item>Suecia</item>
+        <item>Noruega</item>
+        <item>Finlandia</item>
+        <item>Dinamarca</item>
+        <item>Chile</item>
+        <item>Perú</item>
+        <item>Costa Rica</item>
+        <item>Panamá</item>
+        <item>Guatemala</item>
+        <item>El Salvador</item>
+        <item>Colombia</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Uruguay</item>
+        <item>Paraguay</item>
+        <item>Bolivia</item>
+        <item>Honduras</item>
+        <item>Nicaragua</item>
+        <item>Cuba</item>
+        <item>República Dominicana</item>
+        <item>Puerto Rico</item>
+        <item>México</item>
+        <item>Guatemala</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Perú</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Dominicana</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guyana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+        <item>Marruecos</item>
+    </string-array>
+    <string-array name="edificios">
+        <item>Seleciona tu edificio</item>
+        <item>Edificio A</item>
+        <item>Edificio B</item>
+        <item>Edificio C</item>
+        <item>Edificio D</item>
+        <item>Edificio T1</item>
+        <item>Edificio T2</item>
+    </string-array>
     <string name="app_name">Matchuax</string>
     <!-- UBICACION -->
     <string name="seleccione_el_edificio">Seleccione el edificio</string>
