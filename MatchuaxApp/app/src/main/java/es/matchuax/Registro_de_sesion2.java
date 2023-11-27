@@ -1,24 +1,23 @@
 package es.matchuax;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.Button;
 
-public class Chats extends AppCompatActivity {
+public class Registro_de_sesion2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chats);
+        setContentView(R.layout.activity_registro_de_sesion2);
 
-        LinearLayout linearLayout = findViewById(R.id.LinearLayoutMariaFondo);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
+        Button button = findViewById(R.id.siguiente);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Chats.this, Conversaciones.class);
+                Intent intent = new Intent(Registro_de_sesion2.this, Registro_de_sesion3.class);
                 startActivity(intent);
             }
         });

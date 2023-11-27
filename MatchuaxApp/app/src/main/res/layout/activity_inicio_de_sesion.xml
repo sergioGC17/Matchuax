@@ -46,7 +46,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#0000FF"
+        android:backgroundTint="@color/blue"
         android:text="Iniciar Sesión"
         android:textColor="#FFFFFF" />
 
@@ -58,7 +58,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#0000FF"
+        android:backgroundTint="@color/blue"
         android:text="Crear Cuenta"
         android:textColor="#FFFFFF" />
 </RelativeLayout>
