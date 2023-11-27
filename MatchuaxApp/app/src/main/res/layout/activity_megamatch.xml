@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="f"
     tools:context=".Megamatch">
-
 
     <EditText
         android:id="@+id/title"
@@ -13,22 +13,32 @@
         android:layout_height="91dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="377dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="MEGAMATCH"
         android:textAlignment="center"
         android:textSize="50dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/match_foto"
+        android:id="@+id/imageView4"
         android:layout_width="377dp"
         android:layout_height="537dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.252"
@@ -36,11 +46,13 @@
 
     <TextView
         android:id="@+id/match_nombre"
+        android:id="@+id/textView"
         android:layout_width="254dp"
         android:layout_height="48dp"
         android:text="Maria Rodriguez"
         android:textAlignment="center"
         android:textSize="30dp"
+        android:textSize="22dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -53,6 +65,14 @@
         android:layout_height="48dp"
         android:text="Edificio C"
         android:textSize="25dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:text="Edificio C"
+        android:textSize="18dp"
         android:textStyle="bold"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +97,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/atras" />
+
+
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
