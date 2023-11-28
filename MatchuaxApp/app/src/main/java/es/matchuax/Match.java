@@ -1,12 +1,10 @@
 package es.matchuax;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.view.View;
+import android.widget.ImageView;
 
 public class Match extends AppCompatActivity {
 
@@ -15,16 +13,13 @@ public class Match extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_match);
 
-        // Obtén la referencia del Spinner desde el diseño
-        Spinner spinner = findViewById(R.id.spinner);
-
-        // Datos para el Spinner
-        String[] languages = {"","Chat", "Mi Perfil", "Planes de Pago", "", "", "", "Ajustes"};
-
-        // Crea un adaptador y configúralo para el Spinner
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, languages);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-
+        ImageView imageView = findViewById(R.id.atras);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Match.this, Chats.class);
+                startActivity(intent);
+            }
+        });
     }
 }
