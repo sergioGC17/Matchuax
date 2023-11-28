@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".inicio">
+    tools:context=".Inicio">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="365dp"
@@ -41,7 +41,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:shapeAppearanceOverlay="@style/radius"
             app:srcCompat="@drawable/maria"/>
 
 

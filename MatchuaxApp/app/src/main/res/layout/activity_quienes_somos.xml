@@ -72,8 +72,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Texto informativo aquí. Esto es un texto más largo para mostrar cómo se adapta el diseño."
-            android:textSize="18sp" <!-- Tamaño de texto ampliado -->
-        android:layout_gravity="center-vertical" />
+            android:textSize="18sp"/>
     </LinearLayout>
 
     <!-- Diseño 3 -->
