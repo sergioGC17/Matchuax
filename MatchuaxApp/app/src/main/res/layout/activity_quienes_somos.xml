@@ -25,6 +25,58 @@
     <!-- Contenido -->
     <TextView
         android:id="@+id/texto_quienes_somos"
+=======
+        <!-- Imagen con marco redondo (a la izquierda) (Ampliado) -->
+        <ImageView
+            android:id="@+id/circularImage2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src=""
+            android:background="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Texto (a la derecha) (Ampliado) -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Texto informativo aquí. Esto es un texto más largo para mostrar cómo se adapta el diseño."
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <!-- Diseño 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_margin="8dp">
+
+        <!-- Imagen con marco redondo (a la izquierda) -->
+        <ImageView
+            android:id="@+id/circularImage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src=""
+            android:background="@drawable/sergi"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Texto (a la derecha) -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Texto informativo aquí."
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Diseño 4 -->
+    <LinearLayout
+                  
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
