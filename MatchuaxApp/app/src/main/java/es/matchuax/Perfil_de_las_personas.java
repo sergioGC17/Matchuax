@@ -18,7 +18,7 @@ public class Perfil_de_las_personas extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Perfil_de_las_personas.this, Chats.class);
+                Intent intent = new Intent(Perfil_de_las_personas.this, Inicio.class);
                 startActivity(intent);
             }
         });
