@@ -1,60 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- activity_quienes_somos.xml -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:background="#00BCFA"
+    android:backgroundTint="#8BDCF6"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
 
-    <!-- Título "Quiénes Somos" -->
+
     <TextView
+        android:id="@+id/titulo_quienes_somos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiénes Somos"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp" />
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="Quiénes Somos" />
 
-    <!-- Diseño 1 -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp">
-
-        <!-- Imagen con marco redondo (a la izquierda) -->
-        <ImageView
-            android:id="@+id/circularImage1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/ic_launcher_background"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) -->
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí."
-            android:textSize="16sp"/>
-    </LinearLayout>
-
-    <!-- Diseño 2 (Ampliado) -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp"
-        tools:ignore="ExtraText">
-
+    <!-- Contenido -->
+    <TextView
+        android:id="@+id/texto_quienes_somos"
+=======
         <!-- Imagen con marco redondo (a la izquierda) (Ampliado) -->
         <ImageView
             android:id="@+id/circularImage2"
@@ -105,33 +76,20 @@
 
     <!-- Diseño 4 -->
     <LinearLayout
+                  
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp">
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:text="Bienvenidos a nuestra comunidad de Desarrollo de Aplicaciones Móviles (DAM) en la Universidad Alfonso X el sabio. Somos un equipo apasionado de estudiantes que comparten un interés común en la creación de soluciones innovadoras en el mundo de la tecnología. En particular, hemos creado esta aplicación con el objetivo de facilitar conexiones significativas entre estudiantes dentro del campus.\n\n"
+/>
 
-        <!-- Imagen con marco redondo (a la izquierda) -->
-        <ImageView
-            android:id="@+id/circularImage4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/diego"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) -->
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí. Este es el cuarto diseño."
-            android:textSize="16sp"/>
-    </LinearLayout>
-
-
-
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/atras" />
+    +
 
 </LinearLayout>
