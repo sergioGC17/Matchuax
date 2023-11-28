@@ -17,9 +17,21 @@ public class Megamatch extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(Megamatch.this, Inicio.class);
+                startActivity(intent);
+            }
+        });
+
+        // Configuración del OnClickListener para el ImageView "matchchat"
+        ImageView imageViewMatchChat = findViewById(R.id.matchchat);
+        imageViewMatchChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Acción al hacer clic en el ImageView "matchchat"
                 Intent intent = new Intent(Megamatch.this, Chats.class);
                 startActivity(intent);
             }
         });
     }
 }
+
