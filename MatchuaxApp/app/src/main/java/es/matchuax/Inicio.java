@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 
 public class Inicio extends AppCompatActivity {
@@ -36,5 +37,28 @@ public class Inicio extends AppCompatActivity {
             }
         });
         // Aquí termina el código para el ImageView
+
+        // Aquí empieza el código para el ImageButton "match"
+        ImageButton imageButtonMatch = findViewById(R.id.match);
+        imageButtonMatch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Match.class);
+                startActivity(intent);
+            }
+        });
+        // Aquí termina el código para el ImageButton "match"
+
+        // Aquí empieza el código para el ImageButton "matchpremium"
+        ImageButton imageButtonMatchPremium = findViewById(R.id.matchpremium);
+        imageButtonMatchPremium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Megamatch.class);
+                startActivity(intent);
+            }
+        });
+        // Aquí termina el código para el ImageButton "matchpremium"
     }
 }
+
