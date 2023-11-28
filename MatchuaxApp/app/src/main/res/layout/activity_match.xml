@@ -7,14 +7,6 @@
     tools:context=".Match">
 
     <EditText
-        android:id="@+id/title"
-        android:layout_width="377dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
         android:id="@+id/editTextText"
         android:layout_width="377dp"
         android:layout_height="91dp"
@@ -60,22 +52,12 @@
         android:layout_width="254dp"
         android:layout_height="48dp"
         android:text="Edificio C"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteY="538dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
-        android:text="Edificio C"
         android:textAlignment="center"
-        android:textSize="18dp"
-        android:textStyle="bold"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/match_nombre" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="576dp" />
 
     <ImageView
         android:id="@+id/matchchat"
@@ -100,3 +82,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
