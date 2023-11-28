@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import es.varela.mario.machtuax.R;
-
 public class Match extends AppCompatActivity {
 
     @Override
