@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_match.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_match.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_perfil_de_las_personas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchuaxApp/app/src/main/res/layout/activity_perfil_de_las_personas.xml" afterDir="false" />
     </list>
+    <list default="true" id="28ce4832-6437-4955-bcaf-bd88bfe945a2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YTzE8ONW4lOOANwoMDTgvnnZml" />
+  <component name="ProjectId" id="2Y7cHUH4BqswYPBMhuYeQzdfVfY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +50,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700564242563</updated>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/hherv/OneDrive/Escritorio/Matchuax/Matchuax/MatchuaxApp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28ce4832-6437-4955-bcaf-bd88bfe945a2" name="Changes" comment="" />
+      <created>1699879971275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699879971275</updated>
     </task>
     <servers />
   </component>
