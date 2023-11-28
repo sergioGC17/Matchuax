@@ -17,7 +17,7 @@ public class Match extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Match.this, Chats.class);
+                Intent intent = new Intent(Match.this, Inicio.class);
                 startActivity(intent);
             }
         });
