@@ -9,33 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19abaeb0-0a20-46ac-9dbf-3f222b2f9acc" name="Changes" comment="Arreglados unos imports">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_prueba.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ajustes_del_perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ajustes_del_perfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Chats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Conversaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Conversaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio_de_sesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio_de_sesion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Logo_cargando.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Logo_cargando.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Megamatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Megamatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil_de_las_personas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil_de_las_personas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Quienes_somos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Quienes_somos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ubicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ubicacion.java" afterDir="false" />
-    </list>
+    <list default="true" id="19abaeb0-0a20-46ac-9dbf-3f222b2f9acc" name="Changes" comment="Borrada una interfaz de prueba" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4f00ece7-76a6-43e2-80c8-cfed53570122" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -178,11 +155,26 @@
       <option name="project" value="LOCAL" />
       <updated>1701276963200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arreglados unos imports">
+      <created>1701277457128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701277457128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Borrada una interfaz de prueba">
+      <created>1701277535969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701277535969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arreglados unos imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglados unos imports" />
+    <MESSAGE value="Borrada una interfaz de prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Borrada una interfaz de prueba" />
   </component>
 </project>
