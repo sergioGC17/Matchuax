@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import es.matchuax.R;
 
-import es.matchuaxapp.MainActivity;
 
 public class Logo_cargando extends AppCompatActivity {
 

@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import es.matchuax.R;
 
 public class Inicio extends AppCompatActivity {
 

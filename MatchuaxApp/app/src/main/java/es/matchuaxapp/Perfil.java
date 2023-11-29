@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import es.matchuax.R;
 
 public class Perfil extends AppCompatActivity {
 

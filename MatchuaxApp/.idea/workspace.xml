@@ -9,7 +9,25 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19abaeb0-0a20-46ac-9dbf-3f222b2f9acc" name="Changes" comment="" />
+    <list default="true" id="19abaeb0-0a20-46ac-9dbf-3f222b2f9acc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ajustes_del_perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ajustes_del_perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Chats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Conversaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Conversaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio_de_sesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Inicio_de_sesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Logo_cargando.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Logo_cargando.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Megamatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Megamatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil_de_las_personas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Perfil_de_las_personas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Quienes_somos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Quienes_somos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Registro_de_sesion_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ubicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/es/matchuaxapp/Ubicacion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +38,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +85,6 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="MatchuaxApp.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />

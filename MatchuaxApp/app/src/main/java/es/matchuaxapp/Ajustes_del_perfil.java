@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import es.matchuax.R;
+
 public class Ajustes_del_perfil extends AppCompatActivity {
 
     @Override

@@ -3,6 +3,7 @@ package es.matchuaxapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import es.matchuax.R;
 
 public class MainActivity extends AppCompatActivity {
 
