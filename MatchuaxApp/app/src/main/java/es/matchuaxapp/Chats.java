@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import es.matchuax.R;
 
 public class Chats extends AppCompatActivity {
 

@@ -9,7 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import es.matchuax.R;
 
 public class Registro_de_sesion_4 extends AppCompatActivity {
 

@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import es.matchuax.R;
 
 public class Inicio_de_sesion extends AppCompatActivity {
 
