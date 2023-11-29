@@ -1,6 +1,7 @@
-package es.matchuax;
+package es.matchuaxapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,15 +14,14 @@ public class Perfil_de_las_personas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_de_las_personas);
 
-        // Aquí empieza el código para el ImageView
+
         ImageView imageView = findViewById(R.id.atras);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Perfil_de_las_personas.this, Inicio.class);
+                Intent intent = new Intent(Perfil_de_las_personas.this, Conversaciones.class);
                 startActivity(intent);
             }
         });
-        // Aquí termina el código para el ImageView
     }
 }

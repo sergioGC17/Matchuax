@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,7 +19,8 @@
             android:id="@+id/atras"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/atras" />
+            android:src="@drawable/atras"
+            android:contentDescription="@string/atras" />
 
 
         <ImageView
@@ -29,10 +29,11 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
-            android:src="@drawable/maria" />
+            android:src="@drawable/maria"
+            android:contentDescription="@string/maria" />
 
         <TextView
-            android:id="@+id/TextView"
+            android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -60,7 +61,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -243,21 +245,25 @@
                 android:ems="10"
                 android:inputType="text"
                 android:minHeight="48dp"
-                android:text="@string/mensaje" />
+                android:text="@string/mensaje"
+                android:autofillHints=""
+                tools:ignore="LabelFor" />
 
             <ImageView
                 android:id="@+id/archivos"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="5dp"
-                android:src="@drawable/clip"/>
+                android:src="@drawable/clip"
+                android:contentDescription="@string/clip" />
 
             <ImageView
                 android:id="@+id/foto"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="5dp"
-                android:src="@drawable/camara" />
+                android:src="@drawable/camara"
+                android:contentDescription="@string/camara" />
         </LinearLayout> <!-- Mensaje -->
 
         <ImageView
@@ -265,7 +271,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="5dp"
-            android:src="@drawable/audio" />
+            android:src="@drawable/audio"
+            android:contentDescription="@string/audio" />
 
     </LinearLayout> <!-- LinearLayoutAbajo -->
 

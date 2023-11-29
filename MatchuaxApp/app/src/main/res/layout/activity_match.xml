@@ -14,12 +14,14 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="MATCH"
+        android:text="@string/match"
         android:textAlignment="center"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
 
     <ImageView
         android:id="@+id/match_foto"
@@ -31,33 +33,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.252"
-        app:srcCompat="@drawable/maria" />
+        app:srcCompat="@drawable/maria"
+        android:contentDescription="@string/maria" />
 
     <TextView
         android:id="@+id/match_nombre"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:text="Maria Rodriguez"
+        android:layout_marginBottom="152dp"
+        android:text="@string/maria_rodriguez"
         android:textAlignment="center"
-        android:textSize="22dp"
+        android:textSize="22sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="528dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/building"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:text="Edificio C"
+        android:layout_marginBottom="104dp"
+        android:text="@string/edificio_c"
         android:textAlignment="center"
-        android:textSize="25dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="576dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/matchchat"
@@ -67,7 +73,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/chat" />
+        app:srcCompat="@drawable/chat"
+        android:contentDescription="@string/chat" />
 
     <ImageButton
         android:id="@+id/atras"
@@ -78,8 +85,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/atras"
         tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/atras" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

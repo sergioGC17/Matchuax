@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ajustes_de_perfil">
+    tools:context=".Ajustes_del_perfil">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113"
-        app:srcCompat="@drawable/fotoperfil" />
+        app:srcCompat="@drawable/fotoperfil"
+        android:contentDescription="@string/fotoperfil" />
 
     <ImageView
         android:id="@+id/atras"
@@ -28,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/atras" />
+        app:srcCompat="@drawable/atras"
+        android:contentDescription="@string/atras" />
 
 
     <ImageView
@@ -41,7 +43,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/quienessomos" />
+        app:srcCompat="@drawable/quienessomos"
+        android:contentDescription="@string/quienes_somos" />
 
     <ImageView
         android:id="@+id/ubi"
@@ -52,7 +55,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.897"
-        app:srcCompat="@drawable/ubi" />
+        app:srcCompat="@drawable/ubi"
+        android:contentDescription="@string/ubicacion" />
 
     <RelativeLayout
         android:layout_width="94dp"
@@ -74,7 +78,8 @@
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="21dp"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:contentDescription="@string/edit" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -84,7 +89,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="43dp"
             android:layout_marginBottom="4dp"
-            app:srcCompat="@drawable/esp" />
+            app:srcCompat="@drawable/esp"
+            android:contentDescription="@string/bandera" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -108,7 +114,8 @@
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="-2dp"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:contentDescription="@string/edit" />
 
         <TextView
             android:id="@+id/descripcionperfil"
@@ -116,7 +123,7 @@
             android:layout_height="24dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="-2dp"
-            android:text="Descripción: null"
+            android:text="@string/descripcion_null"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -140,9 +147,10 @@
             android:layout_height="24dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:text="Edad: null"
+            android:text="@string/edad_null"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -150,7 +158,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="0dp"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:contentDescription="@string/edit" />
     </RelativeLayout>
 
     <TextView
@@ -159,7 +168,7 @@
         android:layout_height="24dp"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:text="Nombre-Apellidos"
+        android:text="@string/nombre_apellidos"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -188,7 +197,8 @@
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="0dp"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:contentDescription="@string/edit" />
 
         <TextView
             android:id="@+id/telefono"
@@ -196,7 +206,7 @@
             android:layout_height="24dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="-2dp"
-            android:text="Telefono: null"
+            android:text="@string/telefono_null"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -221,7 +231,8 @@
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="0dp"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:contentDescription="@string/edit" />
 
         <TextView
             android:id="@+id/edificioperfil"
@@ -229,9 +240,10 @@
             android:layout_height="24dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="-2dp"
-            android:text="Edificio: null"
+            android:text="@string/edificio_null"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
 
     </RelativeLayout>
 

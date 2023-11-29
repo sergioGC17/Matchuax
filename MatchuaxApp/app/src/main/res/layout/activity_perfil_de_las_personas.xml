@@ -19,40 +19,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/maria"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/maria" />
 
     <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/atras"
-                android:layout_width="73dp"
-                android:layout_height="64dp"
-                android:layout_marginTop="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.044"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/atras" />
+        android:id="@+id/atras"
+        android:layout_width="73dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atras" />
 
-            <TextView
-                android:id="@+id/nombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Maria Rodriguez"
-                android:textSize="27sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/perfil" />
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maria_rodriguez"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perfil" />
 
-            <TextView
-                android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="mariardgz@uax.com"
-                android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/nombre"
-                app:layout_constraintStart_toStartOf="@+id/nombre"
-                app:layout_constraintTop_toBottomOf="@+id/nombre" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maria_mail"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/nombre"
+        app:layout_constraintStart_toStartOf="@+id/nombre"
+        app:layout_constraintTop_toBottomOf="@+id/nombre" />
 
     <LinearLayout
         android:layout_width="410dp"
@@ -72,12 +73,13 @@
             android:background="@drawable/btn_background_1"
             android:drawablePadding="20dp"
             android:paddingStart="20dp"
-            android:text="Mis Gustos"
+            android:text="@string/mis_gustos"
             android:textAlignment="viewStart"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="RtlSymmetry" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/Fotos"
@@ -88,29 +90,25 @@
             android:background="@drawable/btn_background_1"
             android:drawablePadding="20dp"
             android:paddingStart="20dp"
-            android:text="Mis Fotos"
+            android:text="@string/mis_fotos"
             android:textAlignment="viewStart"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="RtlSymmetry" />
 
         <ImageView
             android:id="@+id/espacio"
             android:layout_width="match_parent"
-            android:layout_height="34dp"/>
+            android:layout_height="34dp"
+            android:contentDescription="@string/espacio" />
         <ImageView
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="317dp"
-            app:srcCompat="@drawable/maria" />
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="16dp">>
-
-        </ScrollView>
+            app:srcCompat="@drawable/maria"
+            android:contentDescription="@string/maria" />
 
     </LinearLayout>
 

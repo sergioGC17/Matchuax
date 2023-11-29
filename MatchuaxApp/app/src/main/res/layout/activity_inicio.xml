@@ -26,7 +26,8 @@
             android:layout_marginEnd="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/match" />
+            app:srcCompat="@drawable/match"
+            android:contentDescription="@string/corazon" />
 
         <ImageView
             android:id="@+id/next"
@@ -35,26 +36,33 @@
             android:layout_marginStart="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/next" />
+            app:srcCompat="@drawable/next"
+            android:contentDescription="@string/cruz" />
 
         <ImageView
             android:id="@+id/megamatch"
             android:layout_width="172dp"
             android:layout_height="136dp"
+            android:contentDescription="@string/corazon_fuego"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/matchpremium"
-            tools:layout_editor_absoluteY="575dp" />
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Edificio C"
+            android:layout_marginBottom="20dp"
+            android:text="@string/edificio_c"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="21dp"
-            tools:layout_editor_absoluteY="535dp" />
+            app:layout_constraintBottom_toTopOf="@+id/megamatch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Spinner
@@ -85,14 +93,15 @@
         android:layout_width="346dp"
         android:layout_height="94dp"
         android:layout_marginTop="4dp"
-        android:text="Maria 20 años"
+        android:text="@string/maria_20_anos"
         android:textStyle="bold"
         android:textAlignment="viewStart"
         android:textIsSelectable="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/persona" />
+        app:layout_constraintTop_toBottomOf="@+id/persona"
+        android:autofillHints="" />
 
     <ImageView
         android:id="@+id/siguiente"
@@ -103,6 +112,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/persona"
-        app:srcCompat="@drawable/flecha" />
+        app:srcCompat="@drawable/flecha"
+        android:contentDescription="@string/siguiente" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

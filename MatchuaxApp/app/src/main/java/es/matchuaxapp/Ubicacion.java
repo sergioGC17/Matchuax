@@ -1,4 +1,4 @@
-package es.matchuax;
+package es.matchuaxapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,10 +23,11 @@ public class Ubicacion extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Ubicacion.this, Ajustes_de_perfil.class);
+                Intent intent = new Intent(Ubicacion.this, Ajustes_del_perfil.class);
                 startActivity(intent);
             }
         });
+
 
         //Spinner
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Spinner spinnerEdificios = findViewById(R.id.edificio);

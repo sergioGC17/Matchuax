@@ -1,4 +1,5 @@
-package es.matchuax;
+package es.matchuaxapp;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,41 +8,31 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Spinner;
 
-public class Registro_de_sesion3 extends AppCompatActivity {
+public class Registro_de_sesion_4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registro_de_sesion3);
+        setContentView(R.layout.activity_registro_de_sesion4);
 
         Button button = findViewById(R.id.siguiente);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Registro_de_sesion3.this, Registro_de_sesion4.class);
-                startActivity(intent);
-            }
-        });
-
-        ImageView imageView = findViewById(R.id.atras);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Registro_de_sesion3.this, Registro_de_sesion2.class);
+                Intent intent = new Intent(Registro_de_sesion_4.this, Inicio.class);
                 startActivity(intent);
             }
         });
 
 
-        String[] countries = getResources().getStringArray(R.array.countries_array);
-        String[] listaPaises = getResources().getStringArray(R.array.countries_array);
+        String[] edificios = getResources().getStringArray(R.array.edificios);
+        String[] listaedificios = getResources().getStringArray(R.array.edificios);
 
 // Crear un adaptador para el spinner
-        Spinner spinnerCountries = findViewById(R.id.pais);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, listaPaises);
+        Spinner spinnerCountries = findViewById(R.id.EDIFICIOS);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, listaedificios);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerCountries.setAdapter(adapter);
 
@@ -49,7 +40,7 @@ public class Registro_de_sesion3 extends AppCompatActivity {
         spinnerCountries.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                String selectedCountry = listaPaises[position];
+                String selectedCountry = listaedificios[position];
                 // Aquí puedes trabajar con el país seleccionado
             }
 
@@ -58,7 +49,5 @@ public class Registro_de_sesion3 extends AppCompatActivity {
                 // Acción cuando no se selecciona nada
             }
         });
-
-
     }
 }

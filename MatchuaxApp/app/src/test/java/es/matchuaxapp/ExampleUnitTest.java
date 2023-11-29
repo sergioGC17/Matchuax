@@ -1,4 +1,4 @@
-package es.matchuax;
+package es.matchuaxapp;
 
 import org.junit.Test;
 

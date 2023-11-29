@@ -3,7 +3,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00BCFA"
@@ -34,13 +33,14 @@
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.2" />
+                app:layout_constraintVertical_bias="0.2"
+                android:contentDescription="@string/andrea" />
 
             <TextView
                 android:id="@+id/username_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombre de Usuario"
+                android:text="@string/nombre_de_usuario"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/editTextBio"
@@ -55,7 +55,7 @@
                 android:layout_width="314dp"
                 android:layout_height="100dp"
                 android:backgroundTint="#F5F5F5"
-                android:hint="Biografía"
+                android:hint="@string/biografia"
                 android:inputType="textMultiLine"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
@@ -63,21 +63,22 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/username_profile"
-                app:layout_constraintVertical_bias="0.2" />
+                app:layout_constraintVertical_bias="0.2"
+                android:autofillHints="" />
 
             <ImageButton
-                android:id="@+id/backButton"
+                android:id="@+id/atras"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:background="@drawable/atras"
-                android:contentDescription="Botón de Retroceso"
+                android:contentDescription="@string/boton_de_retroceso"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/settingsImageView"
+                android:id="@+id/tuerca"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_alignParentEnd="true"
@@ -85,7 +86,8 @@
                 android:layout_marginEnd="28dp"
                 android:src="@drawable/tuerca"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/tuerca" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

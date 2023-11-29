@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'es.matchuax'
+    namespace 'es.matchuaxapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "es.matchuax"
+        applicationId "es.matchuaxapp"
         minSdk 24
         targetSdk 33
         versionCode 1

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +13,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/atras"
-        android:clipToOutline="true"/>
+        android:contentDescription="@string/atras" />
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -44,7 +43,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/maria"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/maria" />
                 <!--
                     android:background="@drawable/imageview_chats"
                     android:clipToOutline="true"
@@ -93,7 +93,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/teresa"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/teresa" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutTeresaDerecha"
@@ -138,7 +139,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/paula"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/paula" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutPaulaDerecha"
@@ -183,7 +185,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/andrea"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/andrea" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutAndreaDerecha"
@@ -228,7 +231,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/lucia"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/lucia" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutLuciaDerecha"
@@ -274,7 +278,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/textview_chats"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
                         android:gravity="center"
                         android:text="@string/sinLeerLucia"
                         android:textColor="@color/red"
@@ -297,7 +301,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/sofia"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/sofia" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutSofiaDerecha"
@@ -342,7 +347,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/martina"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/martina" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayoutMartinaDerecha"
