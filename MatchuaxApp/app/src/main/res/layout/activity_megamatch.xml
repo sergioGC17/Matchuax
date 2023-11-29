@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Megamatch">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="377dp"
+        android:layout_height="91dp"
+        android:autofillHints=""
+        android:inputType=""
+        android:text=""
+        tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="377dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/megamatch"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/match_foto"
+        android:layout_width="377dp"
+        android:layout_height="537dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252"
+        app:srcCompat="@drawable/maria"
+        android:contentDescription="@string/maria" />
+
+    <TextView
+        android:id="@+id/match_nombre"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:text="@string/maria_rodriguez"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/matchchat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/building"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="116dp"
+        android:text="@string/edificio_c"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:text="@string/edificio_c"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/match_nombre" />
+
+    <ImageView
+        android:id="@+id/matchchat"
+        android:layout_width="119dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chat"
+        android:contentDescription="@string/chat" />
+
+    <ImageButton
+        android:id="@+id/atras"
+        android:layout_width="87dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="332dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/atras"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="0dp"
+        android:contentDescription="@string/atras" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
