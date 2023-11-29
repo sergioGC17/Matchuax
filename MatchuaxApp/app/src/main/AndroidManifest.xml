@@ -13,9 +13,6 @@
         android:theme="@style/Theme.MatchuaxApp"
         tools:targetApi="31">
         <activity
-            android:name="es.matchuaxapp.Prueba"
-            android:exported="false" />
-        <activity
             android:name=".Ubicacion"
             android:exported="false" />
         <activity
