@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Megamatch">
-
-    <EditText
-        android:id="@+id/title"
-        android:layout_width="377dp"
-        android:layout_height="91dp"
-        android:autofillHints=""
-        android:inputType=""
-        android:text=""
-        tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
-
-    <EditText
+    <TextView
         android:id="@+id/editTextText"
         android:layout_width="377dp"
         android:layout_height="91dp"
@@ -23,14 +6,12 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/megamatch"
+        android:text="MEGAMATCH"
         android:textAlignment="center"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints=""
-        tools:ignore="LabelFor" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/match_foto"
@@ -42,49 +23,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.252"
-        app:srcCompat="@drawable/maria"
-        android:contentDescription="@string/maria" />
+        app:srcCompat="@drawable/maria" />
 
     <TextView
         android:id="@+id/match_nombre"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:text="@string/maria_rodriguez"
+        android:text="Maria Rodriguez"
         android:textAlignment="center"
-        android:textSize="22sp"
+        android:textSize="22dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/matchchat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902"
+        tools:layout_editor_absoluteY="528dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/building"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="116dp"
-        android:text="@string/edificio_c"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
-        android:text="@string/edificio_c"
+        android:text="Edificio C"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/match_nombre" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="566dp" />
 
     <ImageView
         android:id="@+id/matchchat"
@@ -94,10 +59,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/chat"
-        android:contentDescription="@string/chat" />
+        app:srcCompat="@drawable/chat" />
 
-    <ImageButton
+    <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/atras"
         android:layout_width="87dp"
         android:layout_height="71dp"
@@ -105,9 +69,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/atras"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="0dp"
-        android:contentDescription="@string/atras" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
