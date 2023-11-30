@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">MatchuaxApp</string>
+
+    <string name="logo">Logo</string>
+    <string name="atras">Atrás</string>
+
+    <!-- Iniciar sesión -->
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="crear_cuenta">¿No tienes una cuenta? Crear cuenta</string>
+
+
+    <!-- Registro de sesión -->
+    <string name="registrarse">Registrarse</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="dni">DNI</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="np">NP</string>
+    <string name="telefono">Teléfono</string>
+
+    <!-- Registro de sesión 2 -->
+    <string name="siguiente">Siguiente</string>
+    <string name="texto_registro_2">Bienvenido a Matchuax !!\nVamos a personalizar tu perfil</string>
+
+    <!-- Registro de sesión 3 -->
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="genero">Género:</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="otro">Otro</string>
+    <string name="gustos">Gustos:</string>
+    <string name="chicas">Chicas</string>
+    <string name="chicos">Chicos</string>
+    <string-array name="countries_array">
+        <item>Pais de Origen</item>
+        <item>Estados Unidos</item>
+        <item>Canadá</item>
+        <item>México</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Colombia</item>
+        <item>Reino Unido</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+        <item>España</item>
+        <item>Italia</item>
+        <item>Japón</item>
+        <item>China</item>
+        <item>Australia</item>
+        <item>Rusia</item>
+        <item>India</item>
+        <item>Sudáfrica</item>
+        <item>Portugal</item>
+        <item>Holanda (Países Bajos)</item>
+        <item>Bélgica</item>
+        <item>Suiza</item>
+        <item>Austria</item>
+        <item>Grecia</item>
+        <item>Suecia</item>
+        <item>Noruega</item>
+        <item>Finlandia</item>
+        <item>Dinamarca</item>
+        <item>Chile</item>
+        <item>Perú</item>
+        <item>Costa Rica</item>
+        <item>Panamá</item>
+        <item>Guatemala</item>
+        <item>El Salvador</item>
+        <item>Colombia</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Uruguay</item>
+        <item>Paraguay</item>
+        <item>Bolivia</item>
+        <item>Honduras</item>
+        <item>Nicaragua</item>
+        <item>Cuba</item>
+        <item>República Dominicana</item>
+        <item>Puerto Rico</item>
+        <item>México</item>
+        <item>Guatemala</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Perú</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Dominicana</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guyana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+        <item>Marruecos</item>
+    </string-array>
+
+    <!-- Registro de sesión 4 -->
+    <string name="fotoperfil">fotoperfil</string>
+    <string name="button">Button</string>
+    <string name="breve_descripcion">Breve Descripcion</string>
+    <string-array name="edificios">
+        <item>Seleciona tu edificio</item>
+        <item>Edificio A</item>
+        <item>Edificio B</item>
+        <item>Edificio C</item>
+        <item>Edificio D</item>
+        <item>Edificio T1</item>
+        <item>Edificio T2</item>
+    </string-array>
+
+    <!-- Inicio -->
+    <string name="corazon">corazón</string>
+    <string name="cruz">cruz</string>
+    <string name="corazon_fuego">corazón_fuego</string>
+    <string name="edificio_c">Edificio C</string>
+    <string name="maria_20_anos">María 20 años</string>
+
+    <!-- Match/Megamatch -->
+    <string name="chat">chat</string>
+    <string name="maria_rodriguez">Maria Rodriguez</string>
+    <string name="match">MATCH</string>
+    <string name="megamatch">MEGAMATCH</string>
+
+
+    <!-- Chats -->
+    <string name="mensajeMaria">🔈 Audio.</string>
+    <string name="teresa">Teresa</string>
+    <string name="mensajeTeresa">Cuando quieras jaja.</string>
+    <string name="paula">Paula</string>
+    <string name="mensajePaula">Muchas gracias!!</string>
+    <string name="andrea">Andrea</string>
+    <string name="mensajeAndrea">📸 Foto.</string>
+    <string name="lucia">Lucía</string>
+    <string name="mensajeLucia">Es que no me gustas.</string>
+    <string name="sinLeerLucia">1</string>
+    <string name="sofia">Sofía</string>
+    <string name="mensajeSofia">Ahora estoy en clase pero nos pod…</string>
+    <string name="martina">Martina</string>
+    <string name="mensajeMartina">Asi que ya nos veremos allí.</string>
+    <string name="sinLeerMartina">3</string>
+
+
+    <!-- Conversaciones -->
+    <string name="maria">María</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="mensaje1">Hola!</string>
+    <string name="mensaje2">¿De dónde eres?</string>
+    <string name="mensaje3">Yo soy de Madrid.</string>
+    <string name="mensaje4">¿Y tú?</string>
+    <string name="mensaje5">Yo de Zaragoza.</string>
+    <string name="mensaje6">De este pequeño pueblo.</string>
+    <string name="mensaje7">📸 Foto.</string>
+    <string name="mensaje8">Que bonito!!</string>
+    <string name="mensaje9">Jaja.</string>
+    <string name="mensaje10">La verdad que si.</string>
+    <string name="mensaje11">Tú estás estudiando medicina, ¿verdad?</string>
+    <string name="mensaje12">Si, en el edificio A, ¿y tú?</string>
+    <string name="mensaje13">🔈 Audio.</string>
+    <string name="clip">clip</string>
+    <string name="camara">camara</string>
+    <string name="audio">audio</string>
+
+
+    <!-- Perfil de las personas -->
+    <string name="maria_mail">mariardgz@uax.com</string>
+    <string name="mis_gustos">Mis Gustos</string>
+    <string name="mis_fotos">Mis Fotos</string>
+    <string name="espacio">espacio</string>
+    <string name="biografia">Biografía</string>
+    <string name="boton_de_retroceso">Botón de Retroceso</string>
+    <string name="tuerca">tuerca</string>
+
+
+    <!-- Ajustes del perfil -->
+    <string name="quienes_somos">Quiénes Somos</string>
+    <string name="edit">edit</string>
+    <string name="bandera">bandera</string>
+    <string name="descripcion_null">Descripción: null</string>
+    <string name="edad_null">Edad: null</string>
+    <string name="nombre_apellidos">Nombre-Apellidos</string>
+    <string name="telefono_null">Teléfono: null</string>
+    <string name="edificio_null">Edificio: null</string>
+
+
+    <!-- Quienes somos -->
+    <string name="texto_quienes_somos">Bienvenidos a nuestra comunidad de Desarrollo de Aplicaciones Móviles (DAM) en la Universidad Alfonso X el sabio. Somos un equipo apasionado de estudiantes que comparten un interés común en la creación de soluciones innovadoras en el mundo de la tecnología. En particular, hemos creado esta aplicación con el objetivo de facilitar conexiones significativas entre estudiantes dentro del campus.\n\n</string>
+
+
+    <!-- UBICACION -->
+    <string name="seleccione_el_edificio">Seleccione el edificio</string>
+    <string name="ubicacion">UBICACIÓN</string>
+    <string name="mapa">mapa</string>
+</resources>
