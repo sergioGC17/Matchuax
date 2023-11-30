@@ -51,18 +51,6 @@
             app:srcCompat="@drawable/matchpremium"
             tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/edificio_c"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/megamatch"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.052"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Spinner
@@ -88,20 +76,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/maria"/>
 
-    <EditText
+    <TextView
         android:id="@+id/editText"
-        android:layout_width="346dp"
-        android:layout_height="94dp"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
         android:layout_marginTop="4dp"
+        android:autofillHints=""
         android:text="@string/maria_20_anos"
-        android:textStyle="bold"
         android:textAlignment="viewStart"
         android:textIsSelectable="false"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/persona"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/persona" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="@string/edificio_c"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/siguiente"
