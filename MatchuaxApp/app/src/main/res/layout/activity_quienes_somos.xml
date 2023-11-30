@@ -1,138 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- activity_quienes_somos.xml -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#00BCFA"
+    android:backgroundTint="#8BDCF6"
     android:padding="16dp">
 
-    <!-- Título "Quiénes Somos" -->
+
     <TextView
+        android:id="@+id/titulo_quienes_somos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiénes Somos"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp" />
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="@string/quienes_somos" />
 
-    <!-- Diseño 1 -->
-    <LinearLayout
+    <!-- Contenido -->
+    <TextView
+        android:id="@+id/texto_quienes_somos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp">
-
-        <!-- Imagen con marco redondo (a la izquierda) -->
-        <ImageView
-            android:id="@+id/circularImage1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/ic_launcher_background"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) -->
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí."
-            android:textSize="16sp"/>
-    </LinearLayout>
-
-    <!-- Diseño 2 (Ampliado) -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp"
-        tools:ignore="ExtraText">
-
-        <!-- Imagen con marco redondo (a la izquierda) (Ampliado) -->
-        <ImageView
-            android:id="@+id/circularImage2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/ic_launcher_background"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) (Ampliado) -->
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí. Esto es un texto más largo para mostrar cómo se adapta el diseño."
-            android:textSize="18sp" <!-- Tamaño de texto ampliado -->
-        android:layout_gravity="center-vertical" />
-    </LinearLayout>
-
-    <!-- Diseño 3 -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp">
-
-        <!-- Imagen con marco redondo (a la izquierda) -->
-        <ImageView
-            android:id="@+id/circularImage3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/sergi"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) -->
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí."
-            android:textSize="16sp"/>
-    </LinearLayout>
-
-    <!-- Diseño 4 -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_margin="8dp">
-
-        <!-- Imagen con marco redondo (a la izquierda) -->
-        <ImageView
-            android:id="@+id/circularImage4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src=""
-            android:background="@drawable/diego"
-            android:scaleType="centerCrop"
-            android:layout_marginEnd="16dp" />
-
-        <!-- Texto (a la derecha) -->
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Texto informativo aquí. Este es el cuarto diseño."
-            android:textSize="16sp"/>
-    </LinearLayout>
-
-
-
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:text="@string/texto_quienes_somos" />
+    <ImageView
+        android:id="@+id/atras"
+        android:layout_width="54dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/atras"
+        android:contentDescription="@string/atras" />
 
 </LinearLayout>
