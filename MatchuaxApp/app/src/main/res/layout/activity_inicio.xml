@@ -9,35 +9,111 @@
     android:padding="16dp"
     tools:context=".Inicio">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="365dp"
         android:layout_height="711dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/ajustes"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tuerca" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/user"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toEndOf="@+id/ajustes"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chat" />
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/persona"
+            android:layout_width="341dp"
+            android:layout_height="337dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ajustes"
+            app:layout_constraintVertical_bias="0.162"
+            app:srcCompat="@drawable/maria" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="326dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:text="@string/maria_20_anos"
+            android:textAlignment="viewStart"
+            android:textIsSelectable="false"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/persona" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:text="@string/edificio_c"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            tools:ignore="MissingConstraints" />
+
 
         <ImageView
             android:id="@+id/match"
             android:layout_width="96dp"
             android:layout_height="95dp"
             android:layout_marginEnd="16dp"
+            android:contentDescription="@string/corazon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/match"
-            android:contentDescription="@string/corazon" />
+            app:srcCompat="@drawable/match" />
 
         <ImageView
             android:id="@+id/next"
             android:layout_width="92dp"
             android:layout_height="93dp"
             android:layout_marginStart="16dp"
+            android:contentDescription="@string/cruz"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/next"
-            android:contentDescription="@string/cruz" />
+            app:srcCompat="@drawable/next" />
 
         <ImageView
             android:id="@+id/megamatch"
@@ -52,68 +128,4 @@
             tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="49dp"
-        android:layout_height="49dp"
-        android:background="@drawable/menu"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
-
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/persona"
-        android:layout_width="345dp"
-        android:layout_height="335dp"
-        android:layout_marginTop="124dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/maria"/>
-
-    <TextView
-        android:id="@+id/editText"
-        android:layout_width="326dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="4dp"
-        android:autofillHints=""
-        android:text="@string/maria_20_anos"
-        android:textAlignment="viewStart"
-        android:textIsSelectable="false"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/persona" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="130dp"
-        android:layout_height="38dp"
-        android:text="@string/edificio_c"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/siguiente"
-        android:layout_width="42dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="148dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/persona"
-        app:srcCompat="@drawable/flecha"
-        android:contentDescription="@string/siguiente" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

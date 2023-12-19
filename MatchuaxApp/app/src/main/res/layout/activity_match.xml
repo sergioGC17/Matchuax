@@ -16,13 +16,13 @@
         android:inputType="text"
         android:text="@string/match"
         android:textAlignment="center"
-        android:textSize="60sp"
+        android:textSize="60dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor,TextViewEdits" />
+        tools:ignore="LabelFor" />
 
     <ImageView
         android:id="@+id/match_foto"
@@ -43,7 +43,7 @@
         android:layout_height="48dp"
         android:text="@string/maria_rodriguez"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/matchchat"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,14 +79,14 @@
 
     <ImageButton
         android:id="@+id/atras"
-        android:layout_width="93dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:background="@color/white"
         android:contentDescription="@string/atras"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/atras"

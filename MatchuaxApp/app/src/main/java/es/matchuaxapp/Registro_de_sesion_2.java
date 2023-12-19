@@ -18,8 +18,12 @@ public class Registro_de_sesion_2 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String Telefono = getIntent().getStringExtra("Telefono");
                 Intent intent = new Intent(Registro_de_sesion_2.this, Registro_de_sesion_3.class);
+                intent.putExtra("Telefono", Telefono);
                 startActivity(intent);
+
+
             }
         });
     }

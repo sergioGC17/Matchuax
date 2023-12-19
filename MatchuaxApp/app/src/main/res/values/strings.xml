@@ -152,19 +152,21 @@
     <!-- Conversaciones -->
     <string name="maria">María</string>
     <string name="mensaje">Mensaje</string>
-    <string name="mensaje1">Hola!</string>
-    <string name="mensaje2">¿De dónde eres?</string>
-    <string name="mensaje3">Yo soy de Madrid.</string>
-    <string name="mensaje4">¿Y tú?</string>
-    <string name="mensaje5">Yo de Zaragoza.</string>
-    <string name="mensaje6">De este pequeño pueblo.</string>
-    <string name="mensaje7">📸 Foto.</string>
-    <string name="mensaje8">Que bonito!!</string>
-    <string name="mensaje9">Jaja.</string>
-    <string name="mensaje10">La verdad que si.</string>
-    <string name="mensaje11">Tú estás estudiando medicina, ¿verdad?</string>
-    <string name="mensaje12">Si, en el edificio A, ¿y tú?</string>
-    <string name="mensaje13">🔈 Audio.</string>
+    <!---->
+        <string name="mensaje1">Hola!</string>
+        <string name="mensaje2">¿De dónde eres?</string>
+        <string name="mensaje3">Yo soy de Madrid.</string>
+        <string name="mensaje4">¿Y tú?</string>
+        <string name="mensaje5">Yo de Zaragoza.</string>
+        <string name="mensaje6">De este pequeño pueblo.</string>
+        <string name="mensaje7">📸 Foto.</string>
+        <string name="mensaje8">Que bonito!!</string>
+        <string name="mensaje9">Jaja.</string>
+        <string name="mensaje10">La verdad que si.</string>
+        <string name="mensaje11">Tú estás estudiando medicina, ¿verdad?</string>
+        <string name="mensaje12">Si, en el edificio A, ¿y tú?</string>
+        <string name="mensaje13">🔈 Audio.</string>
+    <!---->
     <string name="clip">clip</string>
     <string name="camara">camara</string>
     <string name="audio">audio</string>
