@@ -23,20 +23,21 @@
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="113dp"
-                android:layout_height="118dp"
+                android:layout_width="206dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/logo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.029"
-                app:srcCompat="@drawable/logo"
-                android:contentDescription="@string/logo" />
+                app:srcCompat="@drawable/logo" />
 
             <EditText
                 android:id="@+id/editTextUsername"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
+                android:autofillHints=""
                 android:backgroundTint="#F5F5F5"
                 android:hint="@string/nombre_de_usuario"
                 android:inputType="text"
@@ -44,15 +45,16 @@
                 android:paddingEnd="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.638"
-                android:autofillHints="" />
+                app:layout_constraintVertical_bias="0.436" />
 
             <EditText
                 android:id="@+id/editTextPassword"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
+                android:autofillHints=""
                 android:backgroundTint="#F5F5F5"
                 android:hint="@string/contrasena"
                 android:inputType="textPassword"
@@ -60,24 +62,25 @@
                 android:paddingEnd="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.401"
-                android:autofillHints="" />
+                app:layout_constraintVertical_bias="0.588" />
 
             <Button
                 android:id="@+id/buttonLogin"
                 android:layout_width="174dp"
                 android:layout_height="67dp"
-                android:text="@string/iniciar_sesion"
                 android:backgroundTint="@color/blue"
+                android:text="@string/iniciar_sesion"
                 android:textSize="20sp"
                 app:cornerRadius="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.937" />
+                app:layout_constraintVertical_bias="0.916" />
 
             <TextView
                 android:id="@+id/textViewCreateAccount"

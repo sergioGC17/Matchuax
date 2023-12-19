@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class Registro_de_sesion_3 extends AppCompatActivity {
 
@@ -21,11 +23,21 @@ public class Registro_de_sesion_3 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EditText edadEditText = findViewById(R.id.edad);
+                EditText NombreEditText = findViewById(R.id.Nombre);
+
+                String edad = edadEditText.getText().toString();
+                String Nombre = NombreEditText.getText().toString();
+
                 Intent intent = new Intent(Registro_de_sesion_3.this, Registro_de_sesion_4.class);
+                String Telefono = getIntent().getStringExtra("Telefono");
+                intent.putExtra("edad", edad);
+                intent.putExtra("Nombre", Nombre);
+                intent.putExtra("Telefono", Telefono);
+
                 startActivity(intent);
             }
         });
-
 
 
         String[] countries = getResources().getStringArray(R.array.countries_array);

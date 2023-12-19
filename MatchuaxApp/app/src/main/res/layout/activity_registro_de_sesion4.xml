@@ -40,7 +40,7 @@
                 app:layout_constraintVertical_bias="0.973" />
 
             <Spinner
-                android:id="@+id/EDIFICIOS"
+                android:id="@+id/Edificio"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="76dp"
@@ -126,7 +126,7 @@
                 app:layout_constraintVertical_bias="0.829" />
 
             <EditText
-                android:id="@+id/registro_Descripcion"
+                android:id="@+id/Descripcion"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="8dp"

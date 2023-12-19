@@ -6,30 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Megamatch">
 
-    <EditText
-        android:id="@+id/title"
-        android:layout_width="377dp"
-        android:layout_height="91dp"
-        android:autofillHints=""
-        android:inputType=""
-        android:text=""
-        tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck" />
-
-    <EditText
+    <TextView
         android:id="@+id/editTextText"
         android:layout_width="377dp"
         android:layout_height="91dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
         android:text="@string/megamatch"
         android:textAlignment="center"
-        android:textSize="40sp"
+        android:textSize="50dp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints=""
         tools:ignore="LabelFor" />
 
     <ImageView
@@ -51,7 +43,7 @@
         android:layout_height="48dp"
         android:text="@string/maria_rodriguez"
         android:textAlignment="center"
-        android:textSize="22sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/matchchat"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,26 +57,14 @@
         android:id="@+id/building"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="124dp"
         android:text="@string/edificio_c"
+        android:textAlignment="center"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
-        android:text="@string/edificio_c"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/match_nombre" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/matchchat"
@@ -99,15 +79,18 @@
 
     <ImageButton
         android:id="@+id/atras"
-        android:layout_width="87dp"
-        android:layout_height="71dp"
-        android:layout_marginEnd="332dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:contentDescription="@string/atras"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/atras"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="0dp"
-        android:contentDescription="@string/atras" />
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,15 +18,38 @@ public class Ubicacion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ubicacion);
 
+        Intent intent = getIntent();
+        if (intent != null) {
+            String edad = intent.getStringExtra("edad");
+            String Nombre = intent.getStringExtra("Nombre");
+            String Descripcion = intent.getStringExtra("Descripcion");
+            String Telefono = intent.getStringExtra("Telefono");
+            String Edificio = intent.getStringExtra("Edificio");
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView imageView = findViewById(R.id.atras);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Ubicacion.this, Ajustes_del_perfil.class);
-                startActivity(intent);
-            }
-        });
+            @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView imageView = findViewById(R.id.atras);
+            imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Ubicacion.this, Ajustes_del_perfil.class);
+                    intent.putExtra("edad", edad);
+                    intent.putExtra("Nombre", Nombre);
+                    intent.putExtra("Descripcion", Descripcion);
+                    intent.putExtra("Edificio", Edificio);
+                    intent.putExtra("Telefono", Telefono);
+                    startActivity(intent);
+                }
+            });
+        }else{
+            @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView imageView = findViewById(R.id.atras);
+            imageView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Ubicacion.this, Ajustes_del_perfil.class);
+                    startActivity(intent);
+                }
+            });
+        }
+
 
 
         //Spinner

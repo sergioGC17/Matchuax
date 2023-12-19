@@ -72,7 +72,7 @@
 
 
             <EditText
-                android:id="@+id/Fechanacimiento"
+                android:id="@+id/edad"
                 android:layout_width="314dp"
                 android:layout_height="54dp"
                 android:background="@drawable/fondo_edittext"
