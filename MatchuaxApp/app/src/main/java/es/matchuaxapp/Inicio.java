@@ -32,7 +32,7 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
-        ImageView imageView = findViewById(R.id.next);
+        ImageView imageView = findViewById(R.id.Next);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,15 +72,15 @@ public class Inicio extends AppCompatActivity {
 
         // Obtén referencias a las vistas
         imageViewPersona = findViewById(R.id.persona);
-        textViewNombre = findViewById(R.id.editText);
-        textViewEdificio = findViewById(R.id.textView);
+        textViewNombre = findViewById(R.id.TextoNombre);
+        textViewEdificio = findViewById(R.id.TextoEdificio);
 
         // Configura una imagen aleatoria y muestra la información
         indiceActual = obtenerIndiceAleatorio();
         mostrarInformacionPersona();
 
         // Manejador de clic para el botón "Match"
-        ImageView imageViewMatch = findViewById(R.id.match);
+        ImageView imageViewMatch = findViewById(R.id.Match);
         imageViewMatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +99,7 @@ public class Inicio extends AppCompatActivity {
         });
 
         // Manejador de clic para el botón "Megamatch"
-        ImageView imageViewMegamatch = findViewById(R.id.megamatch);
+        ImageView imageViewMegamatch = findViewById(R.id.Megamatch);
         imageViewMegamatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,3 +139,4 @@ public class Inicio extends AppCompatActivity {
         textViewEdificio.setText(edificio);
     }
 }
+
