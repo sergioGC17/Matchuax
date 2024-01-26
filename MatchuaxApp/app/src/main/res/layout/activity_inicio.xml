@@ -66,7 +66,7 @@
             app:srcCompat="@drawable/maria" />
 
         <TextView
-            android:id="@+id/editText"
+            android:id="@+id/TextoNombre"
             android:layout_width="326dp"
             android:layout_height="50dp"
             android:layout_marginTop="4dp"
@@ -81,21 +81,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/persona" />
 
+
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/TextoEdificio"
             android:layout_width="130dp"
             android:layout_height="38dp"
             android:text="@string/edificio_c"
             android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintTop_toBottomOf="@+id/TextoNombre"
             tools:ignore="MissingConstraints" />
 
-
         <ImageView
-            android:id="@+id/match"
+            android:id="@+id/Match"
             android:layout_width="96dp"
             android:layout_height="95dp"
             android:layout_marginEnd="16dp"
@@ -105,7 +105,7 @@
             app:srcCompat="@drawable/match" />
 
         <ImageView
-            android:id="@+id/next"
+            android:id="@+id/Next"
             android:layout_width="92dp"
             android:layout_height="93dp"
             android:layout_marginStart="16dp"
@@ -115,7 +115,7 @@
             app:srcCompat="@drawable/next" />
 
         <ImageView
-            android:id="@+id/megamatch"
+            android:id="@+id/Megamatch"
             android:layout_width="172dp"
             android:layout_height="136dp"
             android:contentDescription="@string/corazon_fuego"
@@ -128,3 +128,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
